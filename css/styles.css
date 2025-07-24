@@ -80,6 +80,14 @@ main{
     opacity: 1;
 }
 
+.grid img:nth-child(odd){
+    border-color: saddlebrown;
+}
+
+.grid img:nth-child(even){
+    border-color: darkblue;
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
